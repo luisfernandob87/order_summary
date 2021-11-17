@@ -1,0 +1,104 @@
+
+.attribution { font-size: 11px; text-align: center; margin-top: 50px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+--Pale_blue: hsl(225, 100%, 94%);
+--Bright_blue: hsl(245, 75%, 52%);
+--Very_pale_blue: hsl(225, 100%, 98%);
+--Desaturated_blue: hsl(224, 23%, 55%);
+--gris: hsla(225, 18%, 87%, 0.308);
+--Dark_blue: hsl(223, 47%, 23%);
+--fuente_principal: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: var(--Pale_blue);
+    font-family: var(--fuente_principal);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat:repeat-x;
+}
+h1 {
+    font-size: 900;
+}
+h2 {
+    font-size: 700;
+}
+p {
+    font-size: 16px;
+}
+
+h1, h2, p {
+    text-align: center;
+} 
+
+button {
+    color: var(--Very_pale_blue);
+    background-color: var(--Bright_blue);
+    font-family: var(--fuente_principal);
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 80%;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    -webkit-box-shadow: 2px 36px 24px -11px rgba(155,159,235,0.26);
+    -moz-box-shadow: 2px 36px 24px -11px rgba(155,159,235,0.26);
+    box-shadow: 2px 36px 24px -11px rgba(155,159,235,0.26);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.contenido {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: var(--Very_pale_blue);
+    border-radius: 20px;
+    -webkit-box-shadow: 11px 26px 5px 2px rgba(155,159,235,0.05);
+    -moz-box-shadow: 11px 26px 5px 2px rgba(155,159,235,0.05);
+    box-shadow: 11px 26px 5px 2px rgba(155,159,235,0.05);
+}
+.imagen {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.medium {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    background-color: var(--gris);
+    border-radius: 10px;
+    height: 80px;
+}
+.change {
+    color: var(--Bright_blue);
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.top {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cancel {
+    background-color:var(--Very_pale_blue);
+    color: var(--Desaturated_blue);
+    margin: 25px auto;
+    cursor: pointer;
+}
